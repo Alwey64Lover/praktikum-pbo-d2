@@ -1,4 +1,4 @@
-# Praktikum 2 - Enkapsulasi dan Relasi antar Objek
+# Praktikum 2 - Enkapsulasi dan Relasi antar Objek - Tugas Modul
 ### NIM : 24060122140104
 ### Nama : Alwey Hakim
 ## Kesimpulan
