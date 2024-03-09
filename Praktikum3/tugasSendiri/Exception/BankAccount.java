@@ -1,7 +1,7 @@
 /*
   File : BankAccount.java   08/03/24
   Penulis : Alwey Hakim
-  Deskripsi : Kelas BankAccount yang merupakan suatu akun bank dengan balance, jumlah minimal balance, dan metode-metode BankAccount.
+  Deskripsi : Kelas BankAccount yang merupakan suatu akun bank dengan balance, jumlah minimal balance, dan metode-metode akun bank.
  */
 
 public class BankAccount {
@@ -22,6 +22,7 @@ public class BankAccount {
         throw new InsufficientFundsException("Insufficient funds. Minimum balance required: $100.0");
     }
     this.balance -= amount;
+    System.out.println("Withdrawn: $" + amount);
   }
 
   public double getBalance() {
