@@ -19,7 +19,7 @@ public class BankAccount {
 
   public void withdraw(double amount) throws InsufficientFundsException{
     if (this.balance - amount < MIN_BALANCE){
-        throw new InsufficientFundsException("Insufficient funds. Minimum balance required: $100.0");
+        throw new InsufficientFundsException("Insufficient funds. Minimum balance required: $" + MIN_BALANCE);
     }
     this.balance -= amount;
     System.out.println("Withdrawn: $" + amount);
